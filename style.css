@@ -1,0 +1,139 @@
+.b {
+    display: flex;
+   }
+
+#hello {
+    display: none;
+}
+
+#menu {
+    display: none !important;
+}
+
+ul {
+    list-style: none;
+    position: absolute;
+    top: 12px;
+    right: 0px;
+}
+
+span {
+    font-family: 'Rethink Sans', sans-serif;
+
+}
+
+nav {
+    background-color: aqua;
+}
+
+li {
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+    
+}
+
+* {
+    font-family: 'Rethink Sans', sans-serif
+}
+
+.enter {
+    padding: 1rem;
+    
+}
+
+section {
+    padding: 2rem; 
+}
+
+.email {
+    border: 3px solid blueviolet;
+    height: 25vh;
+    width: 69vw;
+}
+input{width: 100%;}
+
+@media only screen and (max-width:460px) {
+    html {
+        font-size: 16px;
+    }
+
+    #hello:checked~ul {
+        left: 0px; background-color: aqua; height: 100vh; top: 2.9rem; font-size: larger; padding: 3px;position: sticky;
+    }
+
+    #menu {
+        display: block !important;
+    }
+
+    ul {
+        display: flex !important;
+        flex-direction: column !important;
+        height: 100vh;
+        top: 55px;
+        left: -100%;
+    }
+    
+    #ujjawal{ position: relative;top: -4px;left:50vw;}
+    
+    .text{width:80vw;height:30vh;}
+    .email{overflow: scroll;}
+
+}
+@media only screen and (min-width:460px) and (max-width:625px) {
+    html {
+        font-size: 16px;
+    }
+
+    #hello:checked~ul {
+        left: 0px;background-color: aqua; height: 100vh; top: 2.9rem; font-size: larger; padding: 3px;position: sticky;
+    }
+
+    #menu {
+        display: block !important;
+    }
+
+    ul {
+        display: flex !important;
+        flex-direction: column !important;
+        height: 100vh;
+        top: 55px;
+        left: -100%;
+    }
+    #ujjawal{ position: relative; top: -4px;left:65%;}
+    ::placeholder{width: 100%;}
+    .text{width:80vw;height:28vh;}
+    
+    
+}
+
+
+@media only screen and (min-width:625px) and (max-width:1000px) {
+    html {
+        font-size: 20px ;
+    } 
+   .email{height: 100%;}
+
+}
+
+@media only screen and (min-width:1000px) {
+    html {
+        font-size: 40px;
+    }
+    .email{height: 100%;} 
+    .text-center{margin: 6rem;padding: 0rem;}
+}
+.in{display: flex;}
+.out{display: flex;}
+.name{padding: 0.3rem;}
+.Email{padding: 0.4rem;}
+.lorem{margin-top: 5rem;margin-bottom: 0rem;}
+.radio{display: flex;flex-direction: row;}
+.male{margin-left: 1rem;}
+.my-2{background-color: aqua;border: 2px solid sienna;border-radius: 8px;}
+input{border: 2px solid sienna;border-radius: 5px;}
+footer{background-image: linear-gradient(to bottom, red, pink);height:20vh; align-items: center; display: flex;padding: 2rem;justify-content: center;}
+.footer{padding: 2rem;}
